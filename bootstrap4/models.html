@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>modals</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- <style type="text/css" media="screen">
+	.data{
+		background-color: 
+		
+	</style>
+	} -->
+</head>
+<body>
+	<div class="container">
+		<h1 class="text-success bg-dark text-center" style="height: 100px; padding: 20px; ">Modals in bootstrap 4 </h2>
+		<br>
+		<button class="btn btn-dark" data-target="#mymodal" data-toggle="modal">Signup</button>
+		<div class="modal container fade" id="mymodal">
+			<div class="modal-dialog modal-dialog-centered">
+				<div class="modal-content container">
+					<div class="modal-header ">
+						<h3 class="text-center text-dark ">Signup</h3>
+						<button type="button" class="close" data-dismiss="modal"> &times;</button>
+
+					</div>		
+					<div class="model-body">
+						<form>
+							<div class="form-group">
+								<lable><i class="fa fa-user fa-2x"></i>username</lable>
+								<input type="text" name="" class="form-control">
+								
+							</div>
+
+							<div class="form-group">
+								<lable><i class="fa fa-lock fa-2x"></i>Password</i></lable>
+								<input type="password" name="" class="form-control">
+								
+							</div>
+
+							<div class="form-group">
+								<lable><i class="fa fa-envelope-o fa-2x"></i>Email</lable>
+								<input type="email" name="" class="form-control">
+								
+							</div>
+						</form>
+					</div>
+					<div class="modal-footer justify-content-center">
+						<button type="submit" class="btn btn-danger">Submit</button>
+					</div>
+
+				</div>
+
+			</div>
+			
+
+		</div>
+
+
+
+
+	</div>
+
+</body>
+</html>
